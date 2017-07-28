@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmtionM.AzureTables">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="0,25,0,0">
+                <Button Text="🔄 Refresh 🔄 " Clicked="Refresh_ClickedAsync" BackgroundColor="Black" TextColor="White" WidthRequest="300"/>
+                <Button Text="Add +" Clicked="AddSong_Clicked" BackgroundColor="Black" TextColor="White" WidthRequest="300"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
+                <Label Text="Name of Music" Margin="20,0,0,0" Font="Bold,15"/>
+                <Label Text="Emotion" Margin="210,0,0,0" Font="Bold,15"/>
+            </StackLayout>
+            <ListView x:Name="MusicList" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="0,0,0,15">
+                                <Label  Text="{Binding SongName, StringFormat='{0}'}" HorizontalOptions="FillAndExpand" Margin="20,0,0,0" VerticalTextAlignment="Center" FontSize="15"/>
+                                <Label Text="{Binding Emotion, StringFormat='{0}'}" VerticalTextAlignment="Center" Margin="0,0,20,0" FontSize="15"/>
+                            </StackLayout>
+                        </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
