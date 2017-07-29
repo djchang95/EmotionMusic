@@ -33,6 +33,8 @@ namespace EmtionM
             {
                 myemotionmusicinformation model = new myemotionmusicinformation()
                 {
+
+                    Musician = MusicianEntry.Text,
                     SongName = SongNameEntry.Text,
                     Emotion = (string)EmotionPicker.SelectedItem
 

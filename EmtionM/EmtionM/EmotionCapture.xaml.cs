@@ -150,7 +150,7 @@ namespace EmtionM
                             YoutubeURLArray[0] = "https://youtu.be/09R8_2nJtjg";
                             YoutubeURLArray[1] = "https://youtu.be/QGJuMBdaqIw?list=RDQM41AQ-GSvq8A";
                             YoutubeURLArray[2] = "https://youtu.be/HMUDVMiITOU";
-                            YoutubeURLArray[2] = "https://youtu.be/y6Sxv-sUYtM?list=RDQM41AQ-GSvq8A";
+                            YoutubeURLArray[3] = "https://youtu.be/y6Sxv-sUYtM?list=RDQM41AQ-GSvq8A";
                             
 
                             Random random = new Random();
@@ -166,7 +166,7 @@ namespace EmtionM
                             YoutubeURLArray[0] = "https://youtu.be/pB-5XG-DbAA";
                             YoutubeURLArray[1] = "https://youtu.be/-2U0Ivkn2Ds";
                             YoutubeURLArray[2] = "https://youtu.be/aVCMyA-EYWQ";
-                            YoutubeURLArray[2] = "https://youtu.be/3AtDnEC4zak";
+                            YoutubeURLArray[3] = "https://youtu.be/3AtDnEC4zak";
                             
 
                             Random random = new Random();

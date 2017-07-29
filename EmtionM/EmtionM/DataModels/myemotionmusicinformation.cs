@@ -12,6 +12,9 @@ namespace EmtionM.DataModels
         [JsonProperty(PropertyName = "Id")]
         public string ID { get; set; }
 
+        [JsonProperty(PropertyName = "Musician")]
+        public string Musician { get; set; }
+
         [JsonProperty(PropertyName = "SongName")]
         public string SongName { get; set; }
 

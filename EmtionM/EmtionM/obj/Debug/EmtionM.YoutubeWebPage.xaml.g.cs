@@ -11,8 +11,7 @@
 namespace EmtionM {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\EmtionM\\EmtionM\\EmtionM\\Yout" +
-        "ubeWebPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Admin\\Documents\\GitHub\\EmotionMusic\\EmtionM\\EmtionM\\YoutubeWebPage.xaml")]
     public partial class YoutubeWebPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

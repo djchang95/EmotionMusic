@@ -5,20 +5,22 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Padding="0,25,0,0">
-                <Button Text="🔄 Refresh 🔄 " Clicked="Refresh_ClickedAsync" BackgroundColor="Black" TextColor="White" WidthRequest="300"/>
-                <Button Text="Add +" Clicked="AddSong_Clicked" BackgroundColor="Black" TextColor="White" WidthRequest="300"/>
+                <Button Text="🔄 Refresh 🔄 " Clicked="Refresh_ClickedAsync" BackgroundColor="SlateGray" TextColor="White" WidthRequest="300"/>
+                <Button Text="Add +" Clicked="AddSong_Clicked" BackgroundColor="SlateGray" TextColor="White" WidthRequest="300"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" Padding="0,20,0,0">
-                <Label Text="Name of Music" Margin="20,0,0,0" Font="Bold,15"/>
-                <Label Text="Emotion" Margin="210,0,0,0" Font="Bold,15"/>
+                <Label Text="Musician" HorizontalOptions="StartAndExpand" Font="Bold,15"/>
+                <Label Text="Song Name" HorizontalOptions="CenterAndExpand" Font="Bold,15"/>
+                <Label Text="Emotion" HorizontalOptions="EndAndExpand" Font="Bold,15"/>
             </StackLayout>
             <ListView x:Name="MusicList" HasUnevenRows="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                             <StackLayout Orientation="Horizontal" Padding="0,0,0,15">
-                                <Label  Text="{Binding SongName, StringFormat='{0}'}" HorizontalOptions="FillAndExpand" Margin="20,0,0,0" VerticalTextAlignment="Center" FontSize="15"/>
-                                <Label Text="{Binding Emotion, StringFormat='{0}'}" VerticalTextAlignment="Center" Margin="0,0,20,0" FontSize="15"/>
+                                <Label  Text="{Binding Musician, StringFormat='{0}'}" HorizontalOptions="FillAndExpand" FontSize="15"/>
+                                <Label  Text="{Binding SongName, StringFormat='{0}'}" HorizontalOptions="FillAndExpand" FontSize="15"/>
+                                <Label Text="{Binding Emotion, StringFormat='{0}'}" VerticalTextAlignment="Center"  FontSize="15"/>
                             </StackLayout>
                         </ViewCell>
                 </DataTemplate>

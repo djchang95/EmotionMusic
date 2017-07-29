@@ -10,9 +10,9 @@
                 <StackLayout Orientation="Horizontal" Padding="15" Spacing="30" HorizontalOptions="Center">
                     <Label x:Name="Emotion" Text="Your Current Emotion:"/>
                 </StackLayout>
-                <Button x:Name="UploadPict" Clicked="UploadPictureButton_Clicked" Text="Upload Picture" HorizontalOptions="Center" BackgroundColor="Black" TextColor="White" WidthRequest="300"/>
-                <Button x:Name="TakePict" Clicked="TakePictureButton_Clicked" Text="Take Picture" HorizontalOptions="Center" BackgroundColor="Black" TextColor="White" WidthRequest="300"/>
-                <Button x:Name="YoutubeCarrier" Clicked="YoutubeCarrier_Clicked" Text="Play Youtube" HorizontalOptions="Center" BackgroundColor="Black" TextColor="White" WidthRequest="300" Opacity="0"/>
+                <Button x:Name="UploadPict" Clicked="UploadPictureButton_Clicked" Text="Upload Picture" HorizontalOptions="Center" BackgroundColor="SlateGray" TextColor="White" WidthRequest="300"/>
+                <Button x:Name="TakePict" Clicked="TakePictureButton_Clicked" Text="Take Picture" HorizontalOptions="Center" BackgroundColor="SlateGray" TextColor="White" WidthRequest="300"/>
+                <Button x:Name="YoutubeCarrier" Clicked="YoutubeCarrier_Clicked" Text="Play Youtube" HorizontalOptions="Center" BackgroundColor="SlateGray" TextColor="White" WidthRequest="300" Opacity="0"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

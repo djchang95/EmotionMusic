@@ -1,16 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="EmtionM.AddSongPage">
+             x:Class="EmtionM.AddSongPage"
+             Title="">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Spacing="18" Padding="0,100,0,0">
+            <Label Text="Musician: " Font="Bold,15"/>
+            <Entry x:Name="MusicianEntry"/>
+            
             <Label Text="Song Name: " Font="Bold,15"/>
             <Entry x:Name="SongNameEntry" />
 
             <Label Text="Emotion: " Font="Bold,15"/>
             <Picker x:Name="EmotionPicker"/>
 
-            <Button Text="Add Song" Clicked="AddButton_Clicked" BackgroundColor="Black" TextColor="White" WidthRequest="300"/>
+            <Button Text="Add Song" Clicked="AddButton_Clicked" BackgroundColor="SlateGray" TextColor="White" WidthRequest="300"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

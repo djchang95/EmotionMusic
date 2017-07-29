@@ -49,7 +49,6 @@
     <Compile Include="EmotionCapture.xaml.cs">
       <DependentUpon>EmotionCapture.xaml</DependentUpon>
     </Compile>
-    <Compile Include="faceEmotionDetection.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

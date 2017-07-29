@@ -11,18 +11,18 @@ namespace EmtionM
     class AzureManager
     {
         private static AzureManager instance;
-        private MobileServiceClient client;
+        private MobileServiceClient mobileClient;
         private IMobileServiceTable<myemotionmusicinformation> musicTable;
 
         private AzureManager()
         {
-            this.client = new MobileServiceClient("http://emotionandmusic.azurewebsites.net");
-            this.musicTable = this.client.GetTable<myemotionmusicinformation>();
+            this.mobileClient = new MobileServiceClient("http://emotionandmusic.azurewebsites.net");
+            this.musicTable = this.mobileClient.GetTable<myemotionmusicinformation>();
         }
 
         public MobileServiceClient AzureClient
         {
-            get { return client; }
+            get { return mobileClient; }
         }
 
         public static AzureManager AzureManagerInstance

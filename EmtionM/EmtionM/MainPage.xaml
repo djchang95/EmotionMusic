@@ -5,11 +5,12 @@
              x:Class="EmtionM.MainPage"
              Title="EmotionM">
         <StackLayout HorizontalOptions ="Center">
-            <StackLayout Padding="0,120,0,105">
-            <Label Text="'Feel Your Mood'"  VerticalOptions="Center" HorizontalOptions="Center" FontSize="33" FontAttributes="Bold"/>
-            </StackLayout>
-        <Button Text="Let's Start" Clicked="Start_Clicked"  BackgroundColor="Black" TextColor="White" WidthRequest="300" />
-        <Button Text="Your Favourite song list" Clicked="Songlist_ClickedAsync" BackgroundColor="Black" TextColor="White" WidthRequest="300"/>
+            <StackLayout Padding="0,100,0,105">
+            <Label Text="'Music is the Shorthand       of Emotion'" HorizontalTextAlignment="Center" VerticalOptions="Center" HorizontalOptions="Center" FontSize="33" FontAttributes="Bold" TextColor="#F08080"/>
+            <Label Text="Leo Tolstoy"  VerticalOptions="Center" HorizontalOptions="Center" FontSize="15" FontAttributes="Bold" TextColor="#F08080"/>
+        </StackLayout>
+        <Button Text="Let's Start" Clicked="Start_Clicked"  BackgroundColor="SlateGray" TextColor="White" WidthRequest="300" />
+        <Button Text="Your Favourite Song List" Clicked="Songlist_ClickedAsync" BackgroundColor="SlateGray" TextColor="White" WidthRequest="300"/>
         </StackLayout>
 
 </ContentPage>
