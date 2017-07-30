@@ -131,7 +131,6 @@ C:\Users\Admin\Documents\Visual Studio 2017\Projects\EmtionM\EmtionM\EmtionM\obj
 C:\Users\Admin\Documents\Visual Studio 2017\Projects\EmtionM\EmtionM\EmtionM\obj\Debug\EmtionM.dll
 C:\Users\Admin\Documents\Visual Studio 2017\Projects\EmtionM\EmtionM\EmtionM\obj\Debug\EmtionM.pdb
 C:\Users\Admin\Documents\Visual Studio 2017\Projects\EmtionM\EmtionM\EmtionM\obj\Debug\EmtionM.csprojResolveAssemblyReference.cache
-C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\System.Windows.Forms.dll
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\EmtionM.dll.config
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\EmtionM.dll
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\EmtionM.pdb
@@ -158,6 +157,7 @@ C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\System.We
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\System.Data.dll
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\System.Data.Linq.dll
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\System.Drawing.dll
+C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\System.Windows.Forms.dll
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\System.Data.Services.Client.dll
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\System.Data.Services.Design.dll
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\System.Data.Entity.dll
@@ -255,6 +255,7 @@ C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\System.Ma
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\Microsoft.JScript.xml
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\bin\Debug\System.EnterpriseServices.Wrapper.dll
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\obj\Debug\EmtionM.csproj.App.config
+C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\obj\Debug\EmtionM.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\obj\Debug\EmtionM.MainPage.xaml.g.cs
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\obj\Debug\EmtionM.App.xaml.g.cs
 C:\Users\Admin\Documents\GitHub\EmotionMusic\EmtionM\EmtionM\obj\Debug\EmtionM.EmotionCapture.xaml.g.cs
